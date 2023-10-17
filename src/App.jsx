@@ -8,12 +8,11 @@ function App() {
   const [list, setList] = useState(new Values('pink').all(10));
 
   return (
-    <>
-      <div>
-        <FormColor setList={setList} />
-        <ColorGrid ListColors={list} />
-      </div>
-    </>
+    <div className='flex flex-col items-center justify-center max-w-full w-screen'>
+      <FormColor setList={setList} />
+      <ColorGrid ListColors={list} />
+    </div>
+
   )
 }
 
