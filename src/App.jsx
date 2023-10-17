@@ -12,7 +12,6 @@ function App() {
       <FormColor setList={setList} />
       <ColorGrid ListColors={list} />
     </div>
-
   )
 }
 
